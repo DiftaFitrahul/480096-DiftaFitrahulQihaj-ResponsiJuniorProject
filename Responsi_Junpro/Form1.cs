@@ -47,7 +47,7 @@ namespace Responsi_Junpro
                     MessageBox.Show("Data berhasil ditambahkan", "Well Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conn.Close();
                     btnLoad.PerformClick();
-                    tbName = null;
+                    tbName.Text = "";
                 }
 
             }
@@ -177,7 +177,7 @@ namespace Responsi_Junpro
                     MessageBox.Show("Data berhasil Diupdate", "Well Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conn.Close();
                     btnLoad.PerformClick();
-                    tbName = null;
+                    tbName.Text = "";
                 }
 
             }
@@ -201,7 +201,7 @@ namespace Responsi_Junpro
                     MessageBox.Show("Data berhasil Didelete", "Well Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     conn.Close();
                     btnLoad.PerformClick();
-                    tbName = null;
+                    tbName.Text = "";
                 }
             }
             catch (Exception ex)
